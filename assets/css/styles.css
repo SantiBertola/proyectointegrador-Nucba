@@ -4,14 +4,18 @@
    padding: 0;
    margin: 0;
    box-sizing: border-box;
-   background: #404d54;
    font-family: 'Noto Sans', sans-serif;
    text-decoration: none;
    list-style-type: none;
 }
 
+body {
+    background: #404d54;
+}
+
 
 /* #404d54 (background)
+#2b3438ad (bg-cards)
 #e4584f
 #cc564f (text)
 #b55450 (text hover)
@@ -48,6 +52,7 @@ header {
   }
   
   .buscar input {
+    background: #404d54;
     width: 0;
     height: 40px;
     padding: 0 20px;
@@ -60,6 +65,7 @@ header {
   }
   
   .btn {
+    background: #404d54;
     width: 55px;
     height: 55px;
     line-height: 55px;
@@ -159,7 +165,7 @@ main {
 
 /* Novedades */
 
-#novedades {
+#novedades, #hombres, #mujeres, #accesorios {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -190,7 +196,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 100px;
+    gap: 60px;
 }
 
 .cards-cointainer {
@@ -201,14 +207,19 @@ main {
    flex-direction: column;
    justify-content: center;
    gap: 20px;
+   width: 539px;
+   height: 666px;
 }
 
 
 
+
 .cards-cointainer img{
-    background: #2b3438ad;
-    max-width: 499px;
-    max-height: 499px;
+    width: 499px;
+    height: 499px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cards-tittle {
@@ -220,9 +231,6 @@ main {
     flex-direction: column;
 }
 
-.cards-tittle h3, .cards-tittle h4, .cards-tittle p {
-    background: #2b3438ad;
-}
 
 
 .cards-price {
@@ -237,6 +245,7 @@ main {
 
 .cards-price span {
     background-color: #e4584f;
+    border: 2px solid black;
     border-radius: 10px;
     padding: 5px;
 }
@@ -262,7 +271,121 @@ main {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact */
+
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.contact-tittles h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
+    color: #e4584f;
+}
+.contact-tittles h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: #e4584f;
+}
+
+.form-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #2b3438ad;
+    width: 40%;
+    height: 40%;
+}
+
+.form-cont label {
+    font-size: 16px;
+    padding: 2px;
+    font-weight: 600;
+    text-decoration: underline black; 
+}
+
+
+.form-cont input, .form-cont select {
+    background-color: #cc564f;
+    color: #000000;
+    width: 25%;
+    height: 25%;
+    border: 1px solid black;
+}
+
+.form-cont input::placeholder, .form-cont select::placeholder, .form-cont textarea::placeholder {
+    color: #000000;
+}
+
+.form-cont textarea {
+    background-color: #cc564f;
+    color: #000000;
+    width: 40%;
+    height: 40%;
+    border: 1px solid black;
+}
+
+.form-cont #subm {
+    margin: 5px;
+    padding: 5px;
+    width: 15%;
+    font-size: 14px;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.form-cont #subm:hover {
+    color: #404d54;
+    background-color: #b55450 ;
+    transition: transform 3s ease-in-out;
+}
+
+
+
+
+
+
+
 /* Footer */
+
+footer {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
 
 .footer-links {
     display: flex;
