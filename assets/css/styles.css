@@ -25,7 +25,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 20vh;
+    height: 15vh;
     padding: 0px 30px 0px 30px;
 }
 
@@ -100,7 +100,7 @@ header {
 }
 
 
-/* Main */
+/* Main, hero*/
 
 main {
     display: flex;
@@ -163,7 +163,7 @@ main {
     border: 2px solid black;
 }
 
-/* Novedades */
+/* Novedades, hombres, mujeres, accesorios */
 
 #novedades, #hombres, #mujeres, #accesorios {
     display: flex;
@@ -250,6 +250,12 @@ main {
     padding: 5px;
 }
 
+.cards-price span:hover {
+    color: #404d54;
+    background-color: #b55450 ;
+    transition: transform 3s ease-in-out;
+}
+
 .btn-add a{
     display: flex;
     align-items: center;
@@ -267,24 +273,6 @@ main {
     background-color: #b55450 ;
     transition: transform 3s ease-in-out;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -384,7 +372,7 @@ main {
 
 footer {
     margin-top: 10vh;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
 }
 
 .footer-links {
