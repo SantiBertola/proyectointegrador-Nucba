@@ -8,7 +8,7 @@
     <title>All Star Basketball</title>
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/animaciones.css">
-
+    <link rel="stylesheet" href="./assets/css/mediaqueries.css">
     <link rel="icon" type="image/png" href="./assets/img/182073.png">
 </head>
 
@@ -20,16 +20,22 @@
             </a>
         </div>
         <nav class="navbar">
+          <label for="menu-toggle" class="menu-label">
+            <img src="assets/img/icons8-menú-96-removebg-preview.png" alt="Icono menu" class="menu-icon">
+          </label>
+          <input type="checkbox" id="menu-toggle">
+
+
             <ul class="navbar-links">
                 <li><a href="#novedades">Novedades</a></li>
                 <li><a href="#hombres">Hombres</a></li>
                 <li><a href="#mujeres">Mujeres</a></li>
                 <li><a href="#accesorios">Accesorios</a></li>
                 <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
-        <div class="cart-img">
-            <div class="buscar">
+            </ul>        
+            
+             <div class="cart-img">
+              <div class="buscar">
                 <input type="text" placeholder="Buscar" required />
 
                 <div class="btn">
@@ -37,8 +43,14 @@
                 </div>
             </div>
             <div class="cart-img2">
-                <img src="/assets/img/Header/shopping-cart.svg" alt="Carrito">
+                <label for="cart-toggle" class="cart-label">
+                    <img src="/assets/img/Header/shopping-cart.svg" alt="Carrito">    
+                </label>
+                <input type="checkbox" id="cart-toggle">
+
             </div>
+        </nav>
+
 
         </div>
     </header>

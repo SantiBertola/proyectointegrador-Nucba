@@ -6,14 +6,14 @@ header {
 
 .login-form-register {
     background-color: #2b3438ad;
-    width: 80vw;
-    height: 70vh;
+    width: 60vw;
+    height: 90%;
 }
 
 .login-form {
     background-color: #2b3438ad;
     width: 40vw;
-    height: 30vh;
+    height: 30%;
 }
 
 .login-tittle {

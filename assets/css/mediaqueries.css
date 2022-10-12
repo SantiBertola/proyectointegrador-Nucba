@@ -1,0 +1,179 @@
+/* Tablets */
+
+@media (max-width: 992px) {
+    .navbar {
+        gap: 10px;
+    }
+
+
+    .navbar-links {
+        position: absolute;
+        top: 120px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        background-color: #2b3438;
+        border: 3px solid #e4584f;
+        border-top: 0px;
+        border-radius: 0px 0px 15px 15px;
+        padding: 45px 30px;
+        gap: 25px;
+        z-index: 3;
+        display: none;
+    }
+
+    .navbar-links a {
+        font-size: 18px;
+    }
+
+    .menu-label{
+        display: flex;
+        order: 2;
+        cursor: pointer;
+    }
+
+
+    #menu-toggle:checked + .navbar-links{
+        display: flex;
+    }
+
+    .hero-info{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .hero-info h2 {
+        width: 90%;
+        max-width: 500px;
+        min-width: unset;
+    }
+
+    .hero-info h4 {
+        width: 50%;
+        max-width: 600px;
+    }
+
+    .hero-img{
+        display: none;
+    }
+
+    #novedades h2, #hombres h2, #mujeres h2, #accesorios h2 {
+        text-align: center;
+        width: 90%;
+    }
+
+    .nov-cards-container{
+        max-width: 80%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #contact h2 {
+        max-width: 500px;
+        min-width: unset;
+        text-align: center;
+    }
+
+    .form-cont {
+        width: 60%;
+        height: 60%;
+    }
+
+    .footer-links{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .login-form {
+        width: 70vw;
+        height: 30vh;
+    }
+
+
+
+}
+
+@media (max-width: 576px){
+    .cart-img, .cart-img2{
+        left: 0;
+        width: 100%;
+        border: none;
+    }
+
+    .buscar:hover input {
+        width: 140px;
+      }
+      
+      .buscar input:focus {
+        width: 140px;
+      }
+
+    .hero-info h3{
+        width: 70%;
+        max-width: unset;
+    }
+
+    #novedades h2, #hombres h2, #mujeres h2, #accesorios h2 {
+        text-align: center;
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    #novedades p, #hombres p, #mujeres p, #accesorios p {
+        text-align: center;
+        width: 90%;
+    }
+
+    .cards-cointainer {
+        width: 100%;
+        height: 100%;
+    }
+
+    .cards-cointainer img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .contact-tittles {
+        max-width: 500px;
+        min-width: unset;
+        text-align: center;
+    }
+
+    .contact-tittles h3 {
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+
+    .form-cont {
+        width: 80%;
+        height: 60%;
+    }
+
+    .form-cont input, .form-cont select {
+        width: 60%;
+    }
+
+    .login-tittle {
+        text-align: center;
+    }
+
+    .login-inputs input {
+        width: 60%;
+    }
+
+   
+
+    .footer-links{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+
+}
