@@ -159,6 +159,10 @@
         width: 60%;
     }
 
+    .login-inputs #subm {
+        width: 30%;
+    }
+
     .login-tittle {
         text-align: center;
     }

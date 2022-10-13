@@ -96,3 +96,30 @@ html {
     transform-origin: bottom left;
     transform: scaleX(1);
   }
+
+
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to  {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-up {
+    0% {
+      transform: translateY(100px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .hero-info h2 {
+    animation: fade 1s ease-in, slide-up 1.3s ease-in-out;
+  }
+
+  .hero-info h4 {
+    animation: fade 0.8s ease-in forwards, slide-up 0.9s ease-in-out;
+  }
